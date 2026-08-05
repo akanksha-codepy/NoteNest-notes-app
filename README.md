@@ -33,7 +33,7 @@ A modern and responsive note-taking application built with **React**, **Tailwind
 
 ### Home Page
 
-![Home](screenshots/home.png)
+![Home](screenshots/homepage.png)
 
 ### Create Note
 
