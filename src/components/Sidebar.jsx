@@ -13,7 +13,6 @@ export default function Sidebar(){
   const pinned = state.notes.filter(n=>n.pinned).length
 
   const uid = ()=> 'n_' + Date.now().toString(36) + Math.random().toString(36).slice(2,6)
-git add .
   const submitQuick = (e)=>{
     e?.preventDefault()
     if(!quickTitle && !quickContent) return
